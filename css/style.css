@@ -330,24 +330,50 @@ footer img {
 }
 
 /*レスポンシブ*/
-@media screen and (max-width: 985px) {
+@media screen and (max-width: 768px) {
 
     .wrapper {
         padding: 8px 12px;
     }
 
+    #header .logo img {
+        width: 80px;
+    }
+
     #header li {
         margin-left: 12px;
+        font-size: 12px;
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 20px;
         left: 35%;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .gallery-item p span {
+        margin: auto;
     }
 
     .gallery-list,
     .gallery-lists {
         width: 100%;
+    }
+
+    .gallery-items img {
+        width: 72px;
+    }
+
+    .gallery-items a {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
     }
 
     .active-items {
@@ -379,9 +405,10 @@ footer img {
 
     iframe {
         width: 100%;
+        margin-bottom: 16px;
     }
 
     .address {
-        padding-left: 12px;
+        padding-left: 0;
     }
 }
