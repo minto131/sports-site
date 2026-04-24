@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 72px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+/*header*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .logo img {
+    width: 120px;
+}
+
+#header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#header li {
+    margin-left: 36px;
+    font-size: 14px;
+}
+
+#header a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/*mainvisual*/
+#mainvisual .logo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    vertical-align: bottom;
+    position: relative;
+}
+
+#mainvisual .logo img {
+    width: 100%;
+    display: block;
+}
+
+h1 {
+    color: #ef8012;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 2px #333333;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+/*料金表用*/
+
+
+.price-table {
+    width: 45%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.price-table th,
+.price-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.price-table th {
+    background-color: #2ec400;
+    color: #ffffff;
+}
+
+
+.price-btn {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.price-btn a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/*週刊スケジュール用*/
+.calendar-table {
+    width: 45%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.calendar-table th,
+.calendar-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.calendar-table th {
+    background-color: #ee6f00;
+    color: #ffffff;
+}
+
+
+.calendar-btn {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.calendar-btn a {
+    color: #333333;
+    text-decoration: none;
+}
+
+/*gallery*/
+
+.gallery-item {
+    margin-bottom: 72px;
+}
+
+.gallery-item p {
+    font-size: 16px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-item p span {
+    margin-right: 40px;
+}
+
+.gallery-list {
+    text-align: center;
+}
+
+.gallery-items {
+    color: #333333;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+.gallery-items img {
+    width: 96px;
+}
+
+.gallery-items a {
+    color: #333333;
+    font-size: 36px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+
+.gallery-list,
+.gallery-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 24px auto;
+    width: 60%;
+    border-radius: 50px;
+}
+
+.gallery-list {
+    background-color: #2ec400;
+}
+
+.gallery-lists {
+    background-color: #EE6F00;
+}
+
+/*active*/
+
+#active {
+    text-align: center;
+}
+
+#active .text {
+    margin-bottom: 64px;
+}
+
+#active .text p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.active-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.active-item {
+    border-radius: 15px;
+    padding: 0 0 42px;
+}
+
+.active-item img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    margin-bottom: 42px;
+}
+
+
+.active-item:nth-child(1) .pickup {
+    background-color: #2ec400;
+}
+
+.active-item:nth-child(2) .pickup {
+    background-color: #ee6f00;
+}
+
+.active-item:nth-child(3) .pickup {
+    background-color: #123de7;
+}
+
+.pickup p {
+    color: white;
+    font-size: 16px;
+}
+
+
+.pickup {
+    padding: 24px 12px;
+    border-radius: 15px;
+}
+
+/*guide-faq*/
+
+#guide-faq {
+    text-align: center;
+    background-color: #ee6f0080;
+    margin-bottom: 64px;
+    border-radius: 15px;
+}
+
+.guide-faq-item {
+    display: flex;
+    width: 35%;
+    align-items: center;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-faq-item img {
+    height: 72px;
+}
+
+#guide-faq .inner .guide-faq-text {
+    width: 45%;
+}
+
+
+/*access*/
+#access {
+    background-color: #123de780;
+    margin-bottom: 120px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.access-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 500px;
+    height: 320px;
+}
+
+.address {
+    padding-left: 42px;
+}
+
+/*footer*/
+footer img {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    height: 80px;
+}
+
+/*レスポンシブ*/
+@media screen and (max-width: 985px) {
+
+    .wrapper {
+        padding: 8px 12px;
+    }
+
+    #header li {
+        margin-left: 12px;
+    }
+
+    h1 {
+        font-size: 36px;
+        left: 35%;
+    }
+
+    .gallery-list,
+    .gallery-lists {
+        width: 100%;
+    }
+
+    .active-items {
+        display: block;
+    }
+
+    .active-item img {
+        margin-bottom: 12px;
+    }
+
+    .inner {
+        display: block;
+    }
+
+    .guide-faq-item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #guide-faq .inner .guide-faq-text {
+        width: 100%;
+    }
+
+    .access-item {
+        display: block;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .address {
+        padding-left: 12px;
+    }
+}
