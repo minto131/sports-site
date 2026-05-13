@@ -174,11 +174,15 @@ h1 {
     color: #333333;
     font-size: 32px;
     text-decoration: none;
+    text-align: center;
+    text-decoration: none;
 }
+
 
 .gallery-items img {
     width: 96px;
 }
+
 
 .gallery-items a {
     color: #333333;
@@ -211,10 +215,17 @@ h1 {
     background-color: #EE6F00;
 }
 
+
 /*active*/
 
 #active {
     text-align: center;
+}
+
+.sports-img {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all 0.8s;
 }
 
 #active .text {
